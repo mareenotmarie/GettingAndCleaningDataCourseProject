@@ -73,3 +73,6 @@ means <- aggregate(mean_std_data[3:length(mean_std_data)],
                    by=mean_std_data[c("subject", "activity")],FUN=mean)
 # rename column headings as averages
 names(means)[3:length(means)] <- paste("average", names(means)[3:length(means)], sep=".")
+
+write.csv(means, "means.csv")
+write.table(means, "means.txt", sep="\t", row.names=F)
