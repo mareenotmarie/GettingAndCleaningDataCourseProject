@@ -1,71 +1,75 @@
 Codebook
 ========================================================
 
- [1] "subject"                                                        
- [2] "activity"                                                       
- [3] "average-time.domain.body.accelerometer.signal.mean.x"           
- [4] "average-time.domain.body.accelerometer.signal.mean.y"           
- [5] "average-time.domain.body.accelerometer.signal.mean.z"           
- [6] "average-time.domain.gravity.accelerometer.signal.mean.x"        
- [7] "average-time.domain.gravity.accelerometer.signal.mean.y"        
- [8] "average-time.domain.gravity.accelerometer.signal.mean.z"        
- [9] "average-time.domain.body.accelerometer.jerk.signal.mean.x"      
-[10] "average-time.domain.body.accelerometer.jerk.signal.mean.y"      
-[11] "average-time.domain.body.accelerometer.jerk.signal.mean.z"      
-[12] "average-time.domain.body.gyroscope.signal.mean.x"               
-[13] "average-time.domain.body.gyroscope.signal.mean.y"               
-[14] "average-time.domain.body.gyroscope.signal.mean.z"               
-[15] "average-time.domain.body.gyroscope.jerk.signal.mean.x"          
-[16] "average-time.domain.body.gyroscope.jerk.signal.mean.y"          
-[17] "average-time.domain.body.gyroscope.jerk.signal.mean.z"          
-[18] "average-time.domain.body.accelerometer.magnitude.mean"          
-[19] "average-time.domain.gravity.accelerometer.magnitude.mean"       
-[20] "average-time.domain.body.accelerometer.jerk.magnitude.mean"     
-[21] "average-time.domain.body.gyroscope.magnitude.mean"              
-[22] "average-time.domain.body.gyroscope.jerk.magnitude.mean"         
-[23] "average-frequency.domain.body.accelerometer.signal.mean.x"      
-[24] "average-frequency.domain.body.accelerometer.signal.mean.y"      
-[25] "average-frequency.domain.body.accelerometer.signal.mean.z"      
-[26] "average-frequency.domain.body.accelerometer.jerk.signal.mean.x" 
-[27] "average-frequency.domain.body.accelerometer.jerk.signal.mean.y" 
-[28] "average-frequency.domain.body.accelerometer.jerk.signal.mean.z" 
-[29] "average-frequency.domain.body.gyroscope.signal.mean.x"          
-[30] "average-frequency.domain.body.gyroscope.signal.mean.y"          
-[31] "average-frequency.domain.body.gyroscope.signal.mean.z"          
-[32] "average-frequency.domain.body.accelerometer.magnitude.mean"     
-[33] "average-frequency.domain.body.accelerometer.jerk.magnitude.mean"
-[34] "average-frequency.domain.body.gyroscope.magnitude.mean"         
-[35] "average-frequency.domain.body.gyroscope.jerk.magnitude.mean"    
-[36] "average-time.domain.body.accelerometer.signal.std.x"            
-[37] "average-time.domain.body.accelerometer.signal.std.y"            
-[38] "average-time.domain.body.accelerometer.signal.std.z"            
-[39] "average-time.domain.gravity.accelerometer.signal.std.x"         
-[40] "average-time.domain.gravity.accelerometer.signal.std.y"         
-[41] "average-time.domain.gravity.accelerometer.signal.std.z"         
-[42] "average-time.domain.body.accelerometer.jerk.signal.std.x"       
-[43] "average-time.domain.body.accelerometer.jerk.signal.std.y"       
-[44] "average-time.domain.body.accelerometer.jerk.signal.std.z"       
-[45] "average-time.domain.body.gyroscope.signal.std.x"                
-[46] "average-time.domain.body.gyroscope.signal.std.y"                
-[47] "average-time.domain.body.gyroscope.signal.std.z"                
-[48] "average-time.domain.body.gyroscope.jerk.signal.std.x"           
-[49] "average-time.domain.body.gyroscope.jerk.signal.std.y"           
-[50] "average-time.domain.body.gyroscope.jerk.signal.std.z"           
-[51] "average-time.domain.body.accelerometer.magnitude.std"           
-[52] "average-time.domain.gravity.accelerometer.magnitude.std"        
-[53] "average-time.domain.body.accelerometer.jerk.magnitude.std"      
-[54] "average-time.domain.body.gyroscope.magnitude.std"               
-[55] "average-time.domain.body.gyroscope.jerk.magnitude.std"          
-[56] "average-frequency.domain.body.accelerometer.signal.std.x"       
-[57] "average-frequency.domain.body.accelerometer.signal.std.y"       
-[58] "average-frequency.domain.body.accelerometer.signal.std.z"       
-[59] "average-frequency.domain.body.accelerometer.jerk.signal.std.x"  
-[60] "average-frequency.domain.body.accelerometer.jerk.signal.std.y"  
-[61] "average-frequency.domain.body.accelerometer.jerk.signal.std.z"  
-[62] "average-frequency.domain.body.gyroscope.signal.std.x"           
-[63] "average-frequency.domain.body.gyroscope.signal.std.y"           
-[64] "average-frequency.domain.body.gyroscope.signal.std.z"           
-[65] "average-frequency.domain.body.accelerometer.magnitude.std"      
-[66] "average-frequency.domain.body.accelerometer.jerk.magnitude.std" 
-[67] "average-frequency.domain.body.gyroscope.magnitude.std"          
-[68] "average-frequency.domain.body.gyroscope.jerk.magnitude.std"
+Each row is the average values for a particular subject and activity across the mean and standard deviation variables for sensor signals and magnitude recordings.
+
+| Index | Name                                                 | Description |
+| ----- | ---------------------------------------------------- | ----------- |
+| 1     | subject | The identifier of the subject (person, volunteer)  in the experiment |
+| 2     | activity | The name of one of six activities the person performed while wearing a smartphone |
+| 3     | average.time.domain.body.accelerometer.signal.mean.x | The average value of all means for the body accelerometer sensor signals in the x direction in the time domain for a particular subject and activity |
+| 4     | average-time.domain.body.accelerometer.signal.mean.y | The average value of all means for the body accelerometer sensor signals in the y direction in the time domain for a particular subject and activity|
+| 5 | average.time.domain.body.accelerometer.signal.mean.z | The average value of all means of the body accelerometer sensor signals in the z direction in the time domain for a particular subject and activity |
+| 6 | average.time.domain.gravity.accelerometer.signal.mean.x | The average value across a particular subject and activity of all means of the gravity accelerometer sensor signal in the x direction in the time domain |
+| 7 | average.time.domain.gravity.accelerometer.signal.mean.y | The average value across a particular subject and activity of all means of the gravity accelerometer sensor signal in the y direction in the time domain |
+| 8 | average.time.domain.gravity.accelerometer.signal.mean.z | The average value across a particular subject and activity of all means of the gravity accelerometer sensor signal in the z direction in the time domain |       
+| 9 | average.time.domain.body.accelerometer.jerk.signal.mean.x | The average value across a particular subject and activity of all means of the body accelerometer jerk sensor signal in the x direction in the time domain |      
+| 10 | average.time.domain.body.accelerometer.jerk.signal.mean.y | The average value across a particular subject and activity of all means of the body accelerometer jerk sensor signal in the y direction in the time domain |     
+| 11 |  average.time.domain.body.accelerometer.jerk.signal.mean.z | The average value across a particular subject and activity of all means of the body accelerometer jerk sensor signal in the z direction in the time domain |  
+| 12 |  average.time.domain.body.gyroscope.signal.mean.x | The average value across a particular subject and activity of all means of the body gyroscope sensor signal in the x direction in the time domain |    
+| 13 |  average.time.domain.body.gyroscope.signal.mean.y | The average value across a particular subject and activity of all means of the body gyroscope sensor signal in the y direction in the time domain |             
+| 14 |  average.time.domain.body.gyroscope.signal.mean.z | The average value across a particular subject and activity of all means of the body gyroscope sensor signal in the z direction in the time domain |             
+| 15 |  average.time.domain.body.gyroscope.jerk.signal.mean.x | The average value across a particular subject and activity of all means of the body gyroscope jerk sensor signal in the x direction in the time domain |
+| 16 |  average.time.domain.body.gyroscope.jerk.signal.mean.y | The average value across a particular subject and activity of all means of the body gyroscope jerk sensor signal in the y direction in the time domain |        
+| 17 |  average.time.domain.body.gyroscope.jerk.signal.mean.z | The average value across a particular subject and activity of all means of the body gyroscope jerk sensor signal in the z direction in the time domain |        
+| 18 |  average.time.domain.body.accelerometer.magnitude.mean | The average value across a particular subject and activity of all means of the body accelerometer magnitude in the time domain |        
+| 19 |  average.time.domain.gravity.accelerometer.magnitude.mean | The average value across a particular subject and activity of all means of the gravity accelerometer magnitude in the time domain |
+| 20 |  average.time.domain.body.accelerometer.jerk.magnitude.mean | The average value across a particular subject and activity of all means of the body accelerometer jerk magnitude in the time domain|     
+| 21 |  average.time.domain.body.gyroscope.magnitude.mean | The average value across a particular subject and activity of all means of the body gyroscope magnitude in the time domain |   
+| 22 |  average.time.domain.body.gyroscope.jerk.magnitude.mean | The average value across a particular subject and activity of all means of the body gyroscope jerk magnitude in the time domain |
+| 23 |  average.frequency.domain.body.accelerometer.signal.mean.x | The average value across a particular subject and activity of all means of the body accelerometer sensor signal in the x direction in the frequency domain |
+| 24 |  average.frequency.domain.body.accelerometer.signal.mean.y | The average value across a particular subject and activity of all means of the body accelerometer sensor signal in the y direction in the frequency domain |    
+| 25 |  average.frequency.domain.body.accelerometer.signal.mean.z | The average value across a particular subject and activity of all means of the body accelerometer sensor signal in the z direction in the frequency domain |    
+| 26 |  average.frequency.domain.body.accelerometer.jerk.signal.mean.x | The average value across a particular subject and activity of all means of the body accelerometer jerk sensor signal in the x direction in the frequency domain |
+| 27 |  average.frequency.domain.body.accelerometer.jerk.signal.mean.y | The average value across a particular subject and activity of all means of the body accelerometer jerk sensor signal in the y direction in the frequency domain |
+| 28 |  average.frequency.domain.body.accelerometer.jerk.signal.mean.z | The average value across a particular subject and activity of all means of the body accelerometer jerk sensor signal in the z direction in the frequency domain |
+| 29 |  average.frequency.domain.body.gyroscope.signal.mean.x | The average value across a particular subject and activity of all means of the body gyroscope sensor signal in the x direction in the frequency domain |
+| 30 |  average.frequency.domain.body.gyroscope.signal.mean.y | The average value across a particular subject and activity of all means of the body gyroscope sensor signal in the y direction in the frequency domain |        
+| 31 |  average.frequency.domain.body.gyroscope.signal.mean.z | The average value across a particular subject and activity of all means of the body gyroscope sensor signal in the z direction in the frequency domain |        
+| 32 |  average.frequency.domain.body.accelerometer.magnitude.mean | The average value across a particular subject and activity of all means of the body accelerometer magnitude in the frequency domain |
+| 33 |  average.frequency.domain.body.accelerometer.jerk.magnitude.mean | The average value across a particular subject and activity of all means of the body accelerometer jerk magnitude in the frequency domain|
+| 34 |  average.frequency.domain.body.gyroscope.magnitude.mean | The average value across a particular subject and activity of all means of the body gyroscope magnitude in the frequency domain|
+| 35 |  average.frequency.domain.body.gyroscope.jerk.magnitude.mean | The average value across a particular subject and activity of all means of the body gyroscope jerk magnitude in the frequency domain|
+| 36 |  average.time.domain.body.accelerometer.signal.std.x | The average value across a particular subject and activity of all standard deviations of the body accelerometer sensor signal in the x direction in the frequency domain |  
+| 37 |  average.time.domain.body.accelerometer.signal.std.y | The average value across a particular subject and activity of all standard deviations of the body accelerometer sensor signal in the y direction in the time domain |          
+| 38 |  average.time.domain.body.accelerometer.signal.std.z | The average value across a particular subject and activity of all standard deviations of the body accelerometer sensor signal in the z direction in the time domain |          
+| 39 |  average.time.domain.gravity.accelerometer.signal.std.x | The average value across a particular subject and activity of all standard deviations of the gravity accelerometer sensor signal in the x direction in the time domain |
+| 40 |  average.time.domain.gravity.accelerometer.signal.std.y | The average value across a particular subject and activity of all standard deviations of the gravity accelerometer sensor signal in the y direction in the time domain |       
+| 41 |  average.time.domain.gravity.accelerometer.signal.std.z | The average value across a particular subject and activity of all standard deviations of the gravity accelerometer sensor signal in the z direction in the time domain |       
+| 42 |  average.time.domain.body.accelerometer.jerk.signal.std.x | The average value across a particular subject and activity of all standard deviations of the body accelerometer jerk sensor signal in the x direction in the time domain |       
+| 43 |  average.time.domain.body.accelerometer.jerk.signal.std.y | The average value across a particular subject and activity of all standard deviations of the body accelerometer jerk sensor signal in the y direction in the time domain |     
+| 44 |  average.time.domain.body.accelerometer.jerk.signal.std.z | The average value across a particular subject and activity of all standard deviations of the body accelerometer jerk sensor signal in the z direction in the time domain |     
+| 45 |  average.time.domain.body.gyroscope.signal.std.x | The average value across a particular subject and activity of all standard deviations of the body gyroscope sensor signal in the x direction in the time domain |     
+| 46 |  average.time.domain.body.gyroscope.signal.std.y | The average value across a particular subject and activity of all standard deviations of the body gyroscope sensor signal in the y direction in the time domain |              
+| 47 |  average.time.domain.body.gyroscope.signal.std.z | The average value across a particular subject and activity of all standard deviations of the body gyroscope sensor signal in the z direction in the time domain |              
+| 48 |  average.time.domain.body.gyroscope.jerk.signal.std.x | The average value across a particular subject and activity of all standard deviations of the body gyroscope jerk sensor signal in the x direction in the time domain |
+| 49 |  average.time.domain.body.gyroscope.jerk.signal.std.y | The average value across a particular subject and activity of all standard deviations of the body gyroscope jerk sensor signal in the y direction in the time domain |         
+| 50 |  average.time.domain.body.gyroscope.jerk.signal.std.z | The average value across a particular subject and activity of all standard deviations of the body gyroscope jerk sensor signal in the z direction in the time domain |         
+| 51 |  average.time.domain.body.accelerometer.magnitude.std | The average value across a particular subject and activity of all standard deviations of the body accelerometer magnitude in the time domain |         
+| 52 |  average.time.domain.gravity.accelerometer.magnitude.std | The average value across a particular subject and activity of all standard deviations of the gravity accelerometer magnitude in the time domain |
+| 53 |  average.time.domain.body.accelerometer.jerk.magnitude.std | The average value across a particular subject and activity of all standard deviations of the body accelerometer jerk magnitude in the time domain |      
+| 54 |  average.time.domain.body.gyroscope.magnitude.std | The average value across a particular subject and activity of all standard deviations of the body gyroscope magnitude in the time domain |    
+| 55 |  average.time.domain.body.gyroscope.jerk.magnitude.std | The average value across a particular subject and activity of all standard deviations of the body gyroscope jerk magnitude in the time domain |
+| 56 |  average.frequency.domain.body.accelerometer.signal.std.x | The average value across a particular subject and activity of all standard deviations of the body accelerometer sensor signal in the x direction in the frequency domain |
+| 57 |  average.frequency.domain.body.accelerometer.signal.std.y | The average value across a particular subject and activity of all standard deviations of the body accelerometer sensor signal in the y direction in the frequency domain |     
+| 58 |  average.frequency.domain.body.accelerometer.signal.std.z | The average value across a particular subject and activity of all standard deviations of the body accelerometer sensor signal in the z direction in the frequency domain |     
+| 59 |  average.frequency.domain.body.accelerometer.jerk.signal.std.x | The average value across a particular subject and activity of all standard deviations of the body accelerometer jerk sensor signal in the x direction in the frequency domain |
+| 60 |  average.frequency.domain.body.accelerometer.jerk.signal.std.y | The average value across a particular subject and activity of all standard deviations of the body accelerometer jerk sensor signal in the y direction in the frequency domain |
+| 61 |  average.frequency.domain.body.accelerometer.jerk.signal.std.z | The average value across a particular subject and activity of all standard deviations of the body accelerometer jerk sensor signal in the z direction in the frequency domain |
+| 62 |  average.frequency.domain.body.gyroscope.signal.std.x | The average value across a particular subject and activity of all standard deviations of the body gyroscope sensor signal in the x direction in the frequency domain |
+| 63 |  average.frequency.domain.body.gyroscope.signal.std.y | The average value across a particular subject and activity of all standard deviations of the body gyroscope sensor signal in the y direction in the frequency domain |         
+| 64 |  average.frequency.domain.body.gyroscope.signal.std.z | The average value across a particular subject and activity of all standard deviations of the body gyroscope sensor signal in the z direction in the frequency domain |         
+| 65 |  average.frequency.domain.body.accelerometer.magnitude.std | The average value across a particular subject and activity of all standard deviations of the body accelerometer sensor magnitude in the frequency domain |
+| 66 |  average.frequency.domain.body.accelerometer.jerk.magnitude.std | The average value across a particular subject and activity of all standard deviations of the body accelerometer jerk sensor magnitude in the frequency domain |
+| 67 |  average.frequency.domain.body.gyroscope.magnitude.std | The average value across a particular subject and activity of all standard deviations of the body gyroscope sensor magnitude in the frequency domain |
+| 68 |  average.frequency.domain.body.gyroscope.jerk.magnitude.std | The average value across a particular subject and activity of all standard deviations of the body gyroscope jerk sensor magnitude in the frequency domain |
